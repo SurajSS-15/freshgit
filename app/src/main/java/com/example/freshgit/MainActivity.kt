@@ -38,21 +38,6 @@ class MainActivity : ComponentActivity() {
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun Hello() {
-    Scaffold(
-        topBar = {},
-        bottomBar = {},
-        content = {
-            Surface(modifier = Modifier
-                .fillMaxSize()
-                .padding(it)) {
-                Column(modifier = Modifier.fillMaxSize(), verticalArrangement = Arrangement.Center, horizontalAlignment = Alignment.CenterHorizontally) {
-                    Text(text = "DEV")
-                    
-                }
-                
-                
-            }
-        }
-    )
+
     
 }
